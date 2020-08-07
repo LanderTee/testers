@@ -1,0 +1,69 @@
+<!--header-->
+.header {
+  width: 100%;
+  z-index: 9999;
+}
+.for-sticky {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  opacity: 0.8;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #f1f1f1;
+  display: block;
+  padding: 0px 15px 5px 15px;
+  background: #ffffff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.logo-nav {
+  padding: 6px 0 10px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 45px;
+  display: block;
+}
+.opacity-nav {
+  opacity: 0.8;
+  z-index: 2;
+}
+/* Menu Button */
+.menu-button {
+  width: 34px;
+  height: 45px;
+  position: fixed;
+  right: 0;
+  margin-top: 13px;
+  margin-right: 35px;
+  z-index: 1000;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.menu-button span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #2f2f2f;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+.menu-button span:nth-child(1) {top: 0vh;}
+
+.menu-button span:nth-child(2) {top: 9px;}
+
+.menu-button span:nth-child(3) {top: 18px;}
+.menu-button:hover {opacity: 0.6;}
